@@ -1,0 +1,119 @@
+/*
+ * {
+   border: 1px dashed;
+  color: #0000ff; 
+}
+
+ /*Initial body */
+body {
+  left: 0;
+  margin: 0;
+  overflow: auto;
+  position: scroll; 
+  background-image: url('/imgs/Atemajac-de-Brizuela-Jalisco.jpg'); 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+}
+
+/* Initial menu */
+.menu {
+  background: #202024 url('/') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  
+}
+
+/* Extras*/
+@font-face {
+    font-family: myFirstFont;
+    src: url("/fonts/stellar-light.otf");
+}
+
+ /*Basic styling*/ 
+.jumbotron {
+  background-image: url('/stylesheets/img-p.jpg'); 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: myFirstFont,'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: myFirstFont,'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+#Ti {
+  color: #fff;
+  font-family: myFirstFont,"Pier Sans",'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+
+#sTi {
+  color: #fff;
+  font-family: myFirstFont,"Pier Sans",'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#reg {
+  text-align: right;
+  color: #fff;
+  font-family: myFirstFont,"Pier Sans",'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+#par {
+  text-align: center;
+  color: #fff;
+  font-family: myFirstFont,"Pier Sans",'Open Sans', sans-serif; 
+}
